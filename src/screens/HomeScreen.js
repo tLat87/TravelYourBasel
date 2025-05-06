@@ -195,7 +195,7 @@ const HomeScreen = ({navigation}) => {
             </TouchableOpacity>
 
 
-            <ImageBackground source={{uri: 'https://s3-alpha-sig.figma.com/img/7cf5/47cf/4d2f6702ba593c2cae4ce702089b2308?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=t2Tx4t8B6hj6h9pgMDTg~Ztmas6kD92bBNxK0271geRpSxjbylrkT8-xqrDz22has1NJqZPJo~t6~G4XeFe-TtM3-6Yku4lLSyebzlsJd~j6IvGJnP~znmttLXpEfBvKcB668F2Hyqg0Qqq57irVlnkBGcS4-X7nxzpBSpC26~U6ag6ptvp-YzCBq26z33BRNepwZt2R8H55HRQCQsdn-wDkmDp8e6Yb1qXGsChlpe2N0-J5G-h1QzomneMMcBSqatMlw9O0SH13phm5Lt4u4p-LL8afeRZynG7WG4D4aDID9~dhPfIUUSk4H~6s9XngtvlI~LjQuzFbTb4z1r3Oig__'}}  style={{width:'100%', height:130, marginBottom: 8, backgroundColor: '#470119',borderColor: '#B80041', borderWidth: 2,overflow: 'hidden', borderRadius: 16, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
+            <ImageBackground source={require('../assets/7cf547cf4d2f6702ba593c2cae4ce702089b2308.png')}  style={{width:'100%', height:130, marginBottom: 8, backgroundColor: '#470119',borderColor: '#B80041', borderWidth: 2,overflow: 'hidden', borderRadius: 16, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
                 <Text style={{color:'white', fontWeight: 'bold', fontSize: 26, alignSelf: 'flex-end', marginBottom: 20, marginLeft: 20}}>
                     Interactive Map
                 </Text>
