@@ -1,4 +1,4 @@
-import {Image, Share, Text, TouchableOpacity, View} from 'react-native';
+import {Image, ScrollView, Share, Text, TouchableOpacity, View} from 'react-native';
 import SmallArrowSvg from '../assets/svg/SmallArrowSvg';
 import EmptyMarkScvg from '../assets/svg/EmptyMarkScvg';
 import MapPointSvg from '../assets/svg/MapPointSvg';
@@ -37,7 +37,7 @@ const AboutHistoricalPlacesScreen = ({ route }) => {
 
 
     return (
-        <View style={{ backgroundColor: '#360013', flex: 1, paddingTop: 10, paddingHorizontal: 16 }}>
+        <ScrollView style={{ backgroundColor: '#360013', flex: 1, paddingTop: 10, paddingHorizontal: 16 }}>
             <View style={{
                 width: '100%',
                 padding: 20,
@@ -150,7 +150,7 @@ const AboutHistoricalPlacesScreen = ({ route }) => {
                     </TouchableOpacity>
                 </View>
             </View>
-        </View>
+        </ScrollView>
     );
 };
 
